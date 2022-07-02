@@ -1,0 +1,10 @@
+{{ define "content_loop" }}
+    <figure class="is-flex is-flex-wrap-wrap">
+        {{ range . }}
+        <div class="m-3">
+            <img src={{ .Image }}>
+            <p>{{ .Title }}</p>
+        </div>
+        {{ end }}
+    </figure>
+{{ end }}

@@ -10,12 +10,8 @@
   </head>
   <body>
     {{ template "common_top_menu" }}
-    {{ template "contents" }}
+    {{ template "contents" . }}
     {{ template "common_footer" }}
-    <!-- {{ template "common_top_menu" }}
-    {{ template "side_menu" }}
-    {{ template "contents" }}
-    {{ template "common_footer" }} -->
   </body>
 </html>
 {{ end }}
