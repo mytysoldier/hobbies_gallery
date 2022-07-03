@@ -2,8 +2,10 @@
 
 
 # 使用技術
-* golang - メイン言語
-* HTML - 画面
+* golang - サーバーサイト
+* HTML - フロント
 * Bulma - CSSフレームワーク
+* Docker
+* PostgreSQL
 
 # 起動方法
